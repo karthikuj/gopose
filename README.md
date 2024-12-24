@@ -1,4 +1,4 @@
-# GoSpose
+# GoPose
 
 A Go implementation of [Spose (Squid Pivoting Open Port Scanner)](https://github.com/aancw/spose), originally created by [Aan](https://github.com/aancw). This tool allows you to find open ports on target hosts behind Squid proxy servers.
 
