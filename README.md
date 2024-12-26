@@ -40,10 +40,10 @@ go build -o gopose
 ### Example
 
 ```bash
-./gopose -target 10.10.11.131 -start 1 -end 1024 -proxy http://10.10.11.131:3128
+./gopose -target 127.0.0.1 -start 1 -end 1024 -proxy http://10.10.11.131:3128
 ```
 
-This command will scan ports 1 to 1024 on the target host 10.10.11.131 through the proxy server at http://10.10.11.131:3128.
+This command will scan ports 1 to 1024 on the target host through the proxy server at http://10.10.11.131:3128.
 
 # Credits
 
