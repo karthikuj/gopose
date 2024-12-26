@@ -18,16 +18,16 @@ This is a high-performance Golang port of the original Python-based Spose tool, 
 ## Installation
 ```bash
 # Clone the repository
-git clone https://github.com/karthikuj/gospose
-cd gospose
+git clone https://github.com/karthikuj/gopose.git
+cd gopose
 # Build the binary
-go build -o gospose
+go build -o gopose
 ```
 
 ## Usage
 
 ```bash
-./gospose -target <target_host> -start <start_port> -end <end_port> -proxy <proxy_url>
+./gopose -target <target_host> -start <start_port> -end <end_port> -proxy <proxy_url>
 ```
 
 ### Parameters
@@ -40,7 +40,7 @@ go build -o gospose
 ### Example
 
 ```bash
-./gospose -target 10.10.11.131 -start 1 -end 1024 -proxy http://10.10.11.131:3128
+./gopose -target 10.10.11.131 -start 1 -end 1024 -proxy http://10.10.11.131:3128
 ```
 
 This command will scan ports 1 to 1024 on the target host 10.10.11.131 through the proxy server at http://10.10.11.131:3128.
